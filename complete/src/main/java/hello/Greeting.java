@@ -3,18 +3,23 @@ package hello;
 public class Greeting {
 
     private final long id;
-    private final String content;
+//    private final long ibklid;
+    private final String name;
 
-    public Greeting(long id, String content) {
+    public Greeting(long id, String name) {
         this.id = id;
-        this.content = content;
+        this.name = name;
+//        this.ibklid = ibklid;
     }
 
     public long getId() {
         return id;
     }
 
-    public String getContent() {
-        return content;
+    public String getName() {
+        return name;
     }
+//    public long getIbklid() {
+//        return ibklid;
+//    }
 }
